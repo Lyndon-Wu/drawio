@@ -430,7 +430,7 @@
 		<delete file="${basedir}/.tmp1.js"/>
 	</target>
 
-	<target name="all" depends="app">
+	<target name="all" depends="app, war, deploy">
 	</target>
 
 	<!-- ================== Stand-alone war creation ============================= -->
