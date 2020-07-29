@@ -2767,6 +2767,7 @@ var mxGraphMlShapesMap =
 	//flowchart
 	"process": "mxgraph.flowchart.process",
 	"decision": "mxgraph.flowchart.decision",
+	"decision2": "mxgraph.flowchart.decision2",
 	"start1": "mxgraph.flowchart.start_1",
 	"start2": "mxgraph.flowchart.start_2;aspect=fixed",
 	"terminator": "mxgraph.flowchart.terminator",
