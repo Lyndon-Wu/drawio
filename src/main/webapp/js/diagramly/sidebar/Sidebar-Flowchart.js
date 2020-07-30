@@ -9,7 +9,6 @@
 		var s3 = mxConstants.STYLE_VERTICAL_LABEL_POSITION + '=bottom;' + mxConstants.STYLE_VERTICAL_ALIGN + '=top;html=1;shape=';
 		var gn = 'mxgraph.flowchart';
 		var dt = '';
-		
 		this.addPaletteFunctions('flowchart', mxResources.get('flowchart'), false,
 		[
 			this.createVertexTemplateEntry(s + 'annotation_1;align=left;pointerEvents=1;', w * 0.5, h, '', 'Annotation', null, null, this.getTagsForStencil(gn, 'annotation_1', dt).join(' ')),
@@ -19,7 +18,9 @@
 			this.createVertexTemplateEntry('shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;', w, h * 0.6, '', 'Data', null, null, this.getTagsForStencil(gn, 'data', dt).join(' ')),
 			this.createVertexTemplateEntry(s + 'database;whiteSpace=wrap;', w * 0.6, h * 0.6, '', 'Database', null, null, this.getTagsForStencil(gn, 'database', dt).join(' ')),
 			this.createVertexTemplateEntry(s + 'decision;whiteSpace=wrap;', w, h, '', 'Decision', null, null, this.getTagsForStencil(gn, 'decision', dt).join(' ')),
-			this.createVertexTemplateEntry(s + 'decision2;whiteSpace=wrap;', w, h, '', 'Decision2', null, null, this.getTagsForStencil(gn, 'decision2', dt).join(' ')),
+			//this.createVertexTemplateEntry(s + 'lyndon;whiteSpace=wrap;', w, h, '', 'Lyndon', null, null, this.getTagsForStencil(gn, 'lyndon', dt).join(' ')),
+			this.createVertexTemplateEntry('aspect=fixed;html=1;points=[];align=center;image;image=img/custom/lyndon.svg;',
+			w, h, '', 'Lyndon', null, null, this.getTagsForStencil(gn, 'lyndon', dt).join(' ')),
 			this.createVertexTemplateEntry(s + 'delay;whiteSpace=wrap;', w, h * 0.6, '', 'Delay', null, null, this.getTagsForStencil(gn, 'delay', dt).join(' ')),
 			this.createVertexTemplateEntry(s + 'direct_data;whiteSpace=wrap;', w, h * 0.6, '', 'Direct Data', null, null, this.getTagsForStencil(gn, 'direct_data', dt).join(' ')),
 			this.createVertexTemplateEntry(s + 'display;whiteSpace=wrap;', w, h * 0.6, '', 'Display', null, null, this.getTagsForStencil(gn, 'display', dt).join(' ')),

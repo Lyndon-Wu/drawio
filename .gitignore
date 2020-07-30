@@ -5,5 +5,7 @@ classes
 node_modules
 .settings
 .classpath
+.idea
 .project
 *.min.js
+*/draw.war
