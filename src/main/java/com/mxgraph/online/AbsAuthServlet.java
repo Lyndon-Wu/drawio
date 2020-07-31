@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2006-2019, JGraph Ltd
- */
 package com.mxgraph.online;
 
 import java.io.BufferedReader;
@@ -32,6 +29,9 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.appengine.api.memcache.MemcacheService;
 import com.google.appengine.api.memcache.stdimpl.GCacheFactory;
 
+/**
+ * Copyright (c) 2006-2019, JGraph Ltd
+ */
 @SuppressWarnings("serial")
 abstract public class AbsAuthServlet extends HttpServlet
 {
